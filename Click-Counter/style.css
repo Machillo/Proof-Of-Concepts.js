@@ -1,0 +1,46 @@
+body {
+    font-family: sans-serif;
+    background-color: #f0f0f0;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .container {
+    text-align: center;
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  }
+  
+  #counter {
+    font-size: 4rem;
+    margin: 1rem 0;
+  }
+  
+  button {
+    margin: 0.5rem;
+    padding: 0.8rem 1.5rem;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  #increase {
+    background-color: #4caf50;
+    color: white;
+  }
+  
+  #decrease {
+    background-color: #f44336;
+    color: white;
+  }
+  
+  #reset {
+    background-color: #2196f3;
+    color: white;
+  }
+  
